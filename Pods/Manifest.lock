@@ -1,0 +1,13 @@
+PODS:
+  - DUMessaging (0.2.7):
+    - Socket.IO-Client-Swift (~> 5.3.1)
+  - Socket.IO-Client-Swift (5.3.2)
+
+DEPENDENCIES:
+  - DUMessaging
+
+SPEC CHECKSUMS:
+  DUMessaging: b1cef011cc37e4e36f4424b4ab8345980123faa4
+  Socket.IO-Client-Swift: 90475313274678e4905d3bee47dbcfcd2cdf01cb
+
+COCOAPODS: 0.39.0

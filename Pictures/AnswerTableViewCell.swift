@@ -9,7 +9,12 @@
 import UIKit
 
 class AnswerTableViewCell: UITableViewCell {
-
+    
+    // MARK Properties
+    @IBOutlet weak var questionLabel: UILabel!
+    @IBOutlet weak var questionPhoto: UIImageView!
+    @IBOutlet weak var answerLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

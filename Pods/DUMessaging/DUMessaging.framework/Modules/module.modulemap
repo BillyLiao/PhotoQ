@@ -1,0 +1,10 @@
+framework module DUMessaging {
+  umbrella header "DUMessaging.h"
+
+  export *
+  module * { export * }
+}
+
+module DUMessaging.Swift {
+    header "DUMessaging-Swift.h"
+}

@@ -7,3 +7,13 @@
 //
 
 import Foundation
+import CoreData
+
+class Answer:NSManagedObject {
+    
+    @NSManaged var question:String!
+    @NSManaged var answer:String?
+    @NSManaged var photo:NSData!
+    @NSManaged var create_time:NSDate!
+
+}
